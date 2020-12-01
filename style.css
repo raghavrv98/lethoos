@@ -49,6 +49,13 @@ h1 {
 	margin: 7px 0px 0px;
 }
 
+.description-text{
+	text-align: left;
+    font-size: 14px;
+    display: block;
+    margin: 12px 12px;
+}
+
 .time-heading {
 	color: #adadad;
 }
@@ -97,8 +104,8 @@ footer .text {
 
 @media only screen and (max-width: 768px) {
 	.element {
-		height: 250px;
-		width: 250px;
+		height: 260px;
+		width: 275px;
 	}
 	.none-mobile {
 		display: none;
@@ -113,8 +120,8 @@ footer .text {
 		margin-right: 35px;
 	}
 	.element {
-		height: 250px;
-		width: 200px;
+		height: 270px;
+		width: 210px;
 	}
 	.none-desktop {
 		display: none;
@@ -125,7 +132,7 @@ footer .text {
 
 .float {
 	position: fixed;
-	bottom: 30px;
+	bottom: 40px;
 	right: 30px;
 	border-radius: 50%;
 	width: 60px;
