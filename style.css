@@ -10,7 +10,7 @@ body {
 	margin-right: 15px;
 }
 
-a{
+a {
 	text-decoration: none !important;
 	color: black !important;
 }
@@ -49,11 +49,11 @@ h1 {
 	margin: 7px 0px 0px;
 }
 
-.description-text{
+.description-text {
 	text-align: left;
-    font-size: 14px;
-    display: block;
-    margin: 12px 25px;
+	font-size: 14px;
+	display: block;
+	margin: 12px 25px;
 }
 
 .time-heading {
@@ -110,6 +110,12 @@ footer .text {
 	.none-mobile {
 		display: none;
 	}
+	.discount-coupon{
+		height: 30px;
+		position: absolute;
+		left: 275px;
+		top: 60px;
+	}
 }
 
 @media only screen and (min-width: 769px) {
@@ -125,6 +131,12 @@ footer .text {
 	}
 	.none-desktop {
 		display: none;
+	}
+	.discount-coupon{
+		height: 30px;
+		position: absolute;
+		left: 172px;
+		top: 52px;
 	}
 }
 
