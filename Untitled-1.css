@@ -1,0 +1,56 @@
+.box1, .box2, .box3, .box4, .box5{
+	height: 50px;
+    width: 200px;
+    border: 1px solid grey;
+    position: relative;
+	border-right: none;
+	display: inline-block;
+}
+
+.diamond1, .diamond2, .diamond3, .diamond4, .diamond5 {
+	position: absolute;
+    height: 35px;
+    width: 35px;
+    border: 1px solid grey;
+    transform: rotate(45deg);
+    top: 16px;
+    border-left: none;
+    border-bottom: none;
+    left: 190px;
+}
+
+.box2{
+    margin-left: -5px;
+    border-left: none;
+}
+
+.diamond2{
+    left: 390px;
+}
+
+.box3{
+    margin-left: -5px;
+    border-left: none;
+}
+
+.diamond3{
+    left: 589px;
+}
+
+.box4{
+    margin-left: -5px;
+    border-left: none;
+}
+
+.diamond4{
+    left: 789px;
+}
+
+.box5{
+    margin-left: -5px;
+    border-left: none;
+}
+
+.diamond5{
+    left: 987px;
+}
