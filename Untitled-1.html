@@ -1,26 +1,145 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ff</title>
+	<title>sample</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="./Untitled-1.css">
+	<link rel="stylesheet" href="">
+	<style>
+		.outer-box {
+			height: 200px;
+			background-color: #EAF1F9;
+			width: 60%;
+			padding: 30px;
+			border-radius: 15px;
+			margin: 200px;
+		}
+
+		.box1,
+		.box2 {
+			height: 65px;
+			width: 40%;
+			border-radius: 15px;
+			position: relative;
+			display: inline-block;
+		}
+
+		.box1::after {
+			content: "";
+			height: 100%;
+			border-left: 2px dashed #BEC5CD;
+			position: absolute;
+			height: 26px;
+			left: 26px;
+			top: 37px;
+		}
+
+		.box1:last-child::after{
+			visibility: hidden;
+		}
+
+		.box2 {
+			width: 55%;
+		}
+
+		.circle {
+			border-radius: 50%;
+			border: 2px solid #59B89D;
+			background: #fff;
+			height: 30px;
+			width: 30px;
+			margin-left: 10px;
+			display: inline-block;
+		}
+
+		.row {
+			width: 100%;
+			display: inline-flex;
+		}
+
+		.circle-text, .desc-text {
+			position: absolute;
+			top: 7px;
+			left: 55px;
+			color: #59B89D;
+			width: 70%;
+		}
+
+		.circle-disable{
+			background-color: #DCE1E6;
+		}
+
+		.desc-text{
+			color: black;
+		}
+
+		.btn-css {
+			height: 30px;
+			background-color: #25379B;
+			border-radius: 5px;
+			color: white;
+			float: right;
+			width: 15%;
+		}
+
+		.arrow{
+			margin-left: 10px;
+		}
+		
+	</style>
+
 </head>
 
 <body>
-		<div class="box1"></div>
-		<div class="diamond1"></div>
-		<div class="box2"></div>
-		<div class="diamond2"></div>
-		<div class="box3"></div>
-		<div class="diamond3"></div>
-		<div class="box4"></div>
-		<div class="diamond4"></div>
-		<div class="box5"></div>
-		<div class="diamond5"></div>
+	<div class="outer-box">
+		<div class="row">
+			<div class="box1">
+				<div class="circle">
+				</div>
+				<span class="circle-text">when issued adjustments<span class="arrow">&#8594;</span></span>
+			</div>
+			<div class="box2">
+
+				<!-- <div class="desc-text">Please review the terms of this loan and make any "When issued"
+					adjustments.</div>
+				<div>
+					<button class="btn-css">Adjust</button>
+				</div> -->
+			</div>
+			<div>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="box1">
+				<div class="circle circle-disable">
+				</div>
+				<span class="circle-text">Sign and upload document</span>
+			</div>
+			<div class="box2">
+				<span></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box1">
+				<div class="circle circle-disable">
+				</div>
+				<span class="circle-text">Confirm Funding and Settlemt</span>
+			</div>
+			<div class="box2">
+				<div class="desc-text">Please review the terms of this loan and make any "When issued"
+					adjustments.</div>
+				<div>
+					<button class="btn-css">Adjust</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="" async defer></script>
 </body>
 
