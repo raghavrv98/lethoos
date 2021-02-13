@@ -15,6 +15,11 @@ a {
 	color: black !important;
 }
 
+.text-color-free{
+	color: black;
+	font-weight: 600;
+}
+
 .logo-text {
 	font-size: 26px;
 	font-weight: 400;
@@ -33,11 +38,15 @@ h1 {
 	margin-left: 5px;
 }
 
-.shop-logo {
+.shop-logo, .free-delivery-image {
 	height: 120px;
 	margin: 0px auto;
 	display: block;
-	width: 60%;
+}
+
+.free-delivery-image{
+	height: 75px;
+	padding: 10px;
 }
 
 .shop-logo-kerala {
